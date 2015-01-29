@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+h1 {
+    color: lightgray;
+    text-align: center;
+}
+div {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    margin: 10px auto 10px auto;
+    display: -webkit-flex;
+}
+div:hover {
+    cursor: pointer;
+    width: 200px;
+}
+div h1 {
+    -webkit-align-self: center;
+    color: white;
+    margin: 0 auto;
+}
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}

@@ -1,0 +1,101 @@
+/* Recipe Site Main CSS
+=======================*/
+
+@import url("HomePage.css");
+@import url("SubmitPage.css");
+@import url("RecipePages.css");
+/* Navigation Bar
+===================*/
+nav{
+    
+}
+.nav {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    background-color: lightgray;
+    -webkit-justify-content: flex-end;
+}
+.nav li {
+    list-style-type: none;
+    -webkit-align-self: center;
+    padding: 5px;
+}
+.nav li img:first-child{
+    margin-right: 800px;
+}
+nav img {
+    width: 75px;
+    height: 75px;
+}
+/* Site Body/Text
+===================*/
+
+body {
+    font-family: Arial;
+    color: #555555;
+}
+h1, h2 {
+    color: black;
+}
+h2 {
+    font-size: 18px;
+}
+hr {
+    margin-top: 30px;
+}
+input[type="text"] {
+    width: 200px;
+}
+/* Footer
+===================*/
+
+footer {
+    font-size: 12px;
+}
+/* Media Q's
+===================*/
+
+@media screen and (max-width: 481px) {
+    .nav {
+        -webkit-flex-direction: column;
+        -webkit-justify-content: center;
+        height: 100%;
+        padding-left: 0px;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .nav li img:first-child{
+    margin: 0 auto;
+}
+    h1, h2, p {
+        text-align: center;
+    }
+    .recipes {
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .recipes a {
+        text-align: center;
+    }
+    .save {
+        display: none;
+    }
+    .food {
+        padding: 0px;
+        margin: 0 auto;
+        float: none;
+        display: block;
+        width: 50%;
+        height: 50%;
+    }
+    #ingred, #instruct {
+        text-align: left;
+    }
+    .signUp {
+        display: none;
+    }
+    .recipeInfo {
+        margin: 0 auto;
+    }
+}

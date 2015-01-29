@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Bootstrap Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="BootstrapAssign.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="nav row">
+            <div class="col-md-2 col-md-offset-1">
+                <a>Bootstrap Assignment</a>
+            </div>
+            <div class="col-md-1">
+                <a>About</a>
+            </div>
+            <div class="col-md-1">
+                <a>Services</a>
+            </div>
+            <div class="col-md-1">
+                <a>Contact</a>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <div class="full row">
+
+            <div class="head col-md-10 col-xs-12 col-md-offset-1">
+                <h1>Bootstrap Assignment 6</h1>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="subHead col-xs-12 col-md-10 col-md-offset-1">
+                <h2>Challenge 1</h2>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="rule col-md-12">
+            <hr>
+        </div>
+
+
+        <div class="first row">
+            <div class="col-md-5 col-md-offset-1">
+                <h2>This First Heading <span>Will Catch Your Eye</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+            <div class="holder col-md-5">
+                <div class="circle"></div>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <div class="col-md-12">
+            <hr>
+        </div>
+
+        <div class="second row">
+            <div class="holder col-md-5 col-md-offset-1">
+                <div class="circle"></div>
+            </div>
+            <div class="col-md-5">
+                <h2>The Second Heading <span>Is Pretty Cool Too.</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <div class="rule col-md-12">
+            <hr>
+        </div>
+
+        <div class="third row">
+            <div class="col-md-5 col-md-offset-1">
+                <h2>The Third Heading <span>Will Seal the Deal.</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+            <div class="holder col-md-5">
+                <div class="circle" id="redCircle"></div>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+
+        <div class="rule col-md-12">
+            <hr>
+        </div>
+
+
+        <div class="copyright col-md-2">
+            <p>Copyright &#169 Your Website 2015</p>
+        </div>
+        <div class="col-md-10"></div>
+
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    "use strict"
+    $(document).ready(function(){
+        var f = "Frank";
+
+        console.log("Hello " + f);
+
+        $("#redCircle").css({"backgroundColor": "red"});
+
+
+        $("#redCircle").click(function(e){
+            alert("Hello World");
+        });
+    });
+    </script>
+</body>

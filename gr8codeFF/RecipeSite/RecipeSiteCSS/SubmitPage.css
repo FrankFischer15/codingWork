@@ -1,0 +1,23 @@
+/* Submit Page CSS
+=======================*/
+/* Submit Form
+=======================*/
+
+.recipeInfo {
+    width: 300px;
+    background-color: lightgrey;
+    padding: 20px 0px 30px 30px;
+}
+.recipeInfo input, .recipeInfo select {
+    display: block;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.recipeInfo input[type="submit"] {
+    width: 100px;
+    height: 25px;
+    background-color: lightgreen;
+}
+.yourRecipe {
+    padding-bottom: 200px;
+}

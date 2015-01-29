@@ -1,0 +1,55 @@
+.nav {
+    background-color: black;
+}
+a {
+    color: lightgrey;
+    font-family: serif;
+    font-size: 18px;
+}
+.full {
+    background-color: lightgrey;
+    height: 500px;
+}
+.head, .subHead {
+    background-color: white;
+    text-align: center;
+}
+.head {
+    margin-top: 5%;
+}
+.head h1 {
+    font-size: 100px;
+    margin: 0;
+}
+.subHead {
+    margin-top: 1%;
+}
+.subHead h2 {
+	font-size: 75px;
+	margin: 0;
+}
+h2 {
+	font-size: 35px
+}
+.rule {
+    margin-top: 2%;
+}
+span {
+    color: lightgrey;
+}
+.holder {
+    display: -webkit-flex;
+}
+.circle {
+    background-color: lightgrey;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    -webkit-align-self: center;
+}
+
+.copyright {
+	margin-top: 2%;
+	margin-bottom: 1%;
+	font-size: 10px;
+}

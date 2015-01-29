@@ -1,0 +1,17 @@
+/* Home Page CSS
+===================*/
+/* Recpie List
+===================*/
+
+.recipes {
+    background-color: lightyellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.recipes a {
+    display: block;
+}
