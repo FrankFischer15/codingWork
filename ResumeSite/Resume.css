@@ -1,0 +1,132 @@
+.frank, .subStats, .canDo, .subStatus, .resume, .subCustomers, .subContactUs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.drop {
+    margin-top: 50px;
+}
+.navbar {
+    border: none;
+    background: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover {
+color: red;
+}
+.navbar-default .navbar-brand:hover {
+color: red;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+color: WHITE;
+}
+.jumbotron a {
+    color: white;
+}
+.jumbotron a:hover {
+    text-decoration: none;
+    color: red;
+}
+.jumbotron {
+    color: white;
+    margin-bottom: 15px;
+    background: url(../dist/images/ResumeCover.JPG) center no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+    height: 750px;
+}
+.dates, p {
+    color: gray;
+}
+.name {
+    list-style-type: none;
+    font: bold;
+}
+.welcome {
+    text-align: center;
+    margin-top: 250px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.proPic {
+    margin-top: 20px;
+}
+.socialLinks li a {
+    padding: 0;
+    margin: 10px 10px 10px 0px;
+    width: 50px;
+}
+.social {
+    width: 50px;
+    height: 50px;
+}
+.stats, .status, .customers {
+    background-color: #F2F2F2;
+}
+.progress-bar {
+    background-color: #33CC33;
+}
+.statSize {
+    font-size: 200%;
+}
+.stat {
+    margin-bottom: 30px;
+}
+button {
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid black;
+    height: 40px;
+    width: 125px;
+    border-radius: 20px;
+    color: black;
+}
+.sendButton {
+    border: 1px solid red;
+    color: red;
+}
+.contactUs {
+    background-color: #161616;
+}
+.contactUs, .contactUs p {
+    color: white;
+}
+.contactInfo {
+    display: block;
+    margin-top: 15px;
+    color: black;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.submit {
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+#yourMessage {
+    height: 125px;
+}
+.copyRight {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carouselHolder {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: block;
+    margin: 3px;
+}
+.error {
+    color: red;
+    margin-left: 10px;
+}
