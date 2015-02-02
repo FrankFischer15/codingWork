@@ -1,0 +1,14 @@
+@mixin padding($padding) {
+	padding-top: $padding;
+	padding-bottom: $padding;
+}
+
+@mixin media-square($size) {
+	height: $size;
+	width: $size;
+}
+
+@mixin carousel-item($size) {
+	height: $size;
+	width: $size;
+}

@@ -1,0 +1,146 @@
+/*SECTION SPACING*/
+/* line 2, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.pad {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* line 5, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.drop {
+  margin-top: 50px; }
+
+/* line 8, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+hr {
+  margin: 10px auto; }
+
+/*TEXT FORMATTING*/
+/* line 12, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.dates, p {
+  color: gray; }
+
+/*BACKGROUND COLORS*/
+/* line 16, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.bgc {
+  background-color: #F2F2F2; }
+
+/*BUTTONS*/
+/* line 20, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+button {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid black;
+  height: 40px;
+  width: 125px;
+  border-radius: 20px;
+  color: black; }
+
+/*JUMBOTRON and NAV*/
+/* line 30, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.jumbotron {
+  color: white;
+  margin-bottom: 15px;
+  background: url(../dist/images/ResumeCover.JPG) center no-repeat;
+  background-size: cover;
+  padding: 25px 0px;
+  height: 750px; }
+  /* line 38, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .navbar {
+    border: none;
+    background: transparent; }
+  /* line 42, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron #navDrop {
+    width: auto; }
+  /* line 45, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .navbar-default .navbar-nav > li > a:hover {
+    color: red; }
+  /* line 48, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .navbar-default .navbar-brand:hover {
+    color: red; }
+  /* line 51, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .navbar-default .navbar-brand {
+    color: white; }
+  /* line 54, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .navbar-default .navbar-nav > li > a {
+    color: white; }
+  /* line 57, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+  .jumbotron .welcome {
+    color: white;
+    text-align: center;
+    margin-top: 250px; }
+
+/*PICTURE*/
+/* line 64, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.proPic {
+  margin-top: 20px; }
+
+/*PROGREE*/
+/* line 68, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.progress-bar {
+  background-color: #33CC33; }
+
+/*SOCIAL MEDIA LINKS*/
+/* line 72, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.socialLinks li a {
+  padding: 0;
+  margin: 10px 10px 10px 0px;
+  width: 50px; }
+
+/* line 77, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.social {
+  height: 50px;
+  width: 50px; }
+
+/*STATS*/
+/* line 81, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.statSize {
+  font-size: 200%; }
+
+/*CUSTOMERS*/
+/* line 85, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.carouselHolder {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: block;
+  margin: 3px; }
+
+/*CONTACT US*/
+/* line 92, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.contactUs {
+  background-color: #161616; }
+
+/* line 95, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.contactUs, .contactUs p {
+  color: white; }
+
+/*FORM*/
+/* line 99, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.contactInfo {
+  display: block;
+  margin-top: 15px;
+  color: black;
+  width: 75%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px; }
+
+/* line 108, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+#yourMessage {
+  height: 125px; }
+
+/* line 111, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.error {
+  color: red;
+  margin-left: 10px; }
+
+/*COPYRIGHT*/
+/* line 116, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+.copyRight {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*HIDDEN OBJECTS*/
+/* line 123, /Users/Frank/Documents/Coding/Resume/ResumeSass */
+#portfolio, form {
+  display: none; }

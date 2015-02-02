@@ -1,0 +1,125 @@
+/*SECTION SPACING*/
+.pad {
+    @include padding(50px);
+}
+.drop {
+    margin-top: 50px;
+}
+hr {
+    margin: 10px auto;
+}
+/*TEXT FORMATTING*/
+.dates, p {
+    color: $font-secondary;
+}
+/*BACKGROUND COLORS*/
+.bgc {
+    background-color: $bgc-secondary;
+}
+/*BUTTONS*/
+button {
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid black;
+    height: 40px;
+    width: 125px;
+    border-radius: 20px;
+    color: black;
+}
+/*JUMBOTRON and NAV*/
+.jumbotron {
+    color: $font-light;
+    margin-bottom: 15px;
+    background: url(../dist/images/ResumeCover.JPG) center no-repeat;
+    background-size: cover;
+    padding: 25px 0px;
+    height: 750px;
+
+    .navbar {
+    	border: none;
+    	background: transparent;
+	}
+	#navDrop {
+    	width: auto;
+	}
+    .navbar-default .navbar-nav>li>a:hover {
+		color: red;
+	}
+	.navbar-default .navbar-brand:hover {
+		color: red;
+	}
+	.navbar-default .navbar-brand {
+		color: $font-light;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: $font-light;
+	}
+	.welcome {
+	    color: $font-light;
+	    text-align: center;
+	    margin-top: 250px;
+	}
+}
+/*PICTURE*/
+.proPic {
+    margin-top: 20px;
+}
+/*PROGREE*/
+.progress-bar {
+    background-color: #33CC33;
+}
+/*SOCIAL MEDIA LINKS*/
+.socialLinks li a {
+    padding: 0;
+    margin: 10px 10px 10px 0px;
+    width: 50px;
+}
+.social {
+    @include media-square(50px);
+}
+/*STATS*/
+.statSize {
+    font-size: 200%;
+}
+/*CUSTOMERS*/
+.carouselHolder {
+    @include carousel-item(100px);
+    background-color: red;
+    display: block;
+    margin: 3px;
+}
+/*CONTACT US*/
+.contactUs {
+    background-color: $bgc-dark;
+}
+.contactUs, .contactUs p {
+    color: white;
+}
+/*FORM*/
+.contactInfo {
+    display: block;
+    margin-top: 15px;
+    color: black;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+#yourMessage {
+    height: 125px;
+}
+.error {
+    color: red;
+    margin-left: 10px;
+}
+/*COPYRIGHT*/
+.copyRight {
+    background-color: $bgc-darkest;
+    color: $font-light;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*HIDDEN OBJECTS*/
+#portfolio, form {
+    display: none;
+}
