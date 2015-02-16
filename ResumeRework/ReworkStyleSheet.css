@@ -1,0 +1,24 @@
+/*SPACING*/
+.conSpace {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.rowSpace {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+
+/*BG COLOR*/
+.colorBreak {
+	background-color: #F2F2F2;
+}
+.darkBreak {
+	background-color: black;
+}
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+/*FONT COLOR*/

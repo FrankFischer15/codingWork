@@ -15,7 +15,6 @@ $(document).ready(function() {
     var scroll = false;
 
     $(window).scroll(function(e) {
-        console.log($(window).scrollTop())
         if ($(window).scrollTop() > 1160 && !scroll) {
 
             scroll = true;

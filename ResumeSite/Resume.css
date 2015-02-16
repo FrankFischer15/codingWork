@@ -9,6 +9,9 @@
     border: none;
     background: transparent;
 }
+#navDrop {
+    width: auto;
+}
 .navbar-default .navbar-nav>li>a:hover {
 color: red;
 }
@@ -129,4 +132,7 @@ button {
 .error {
     color: red;
     margin-left: 10px;
+}
+.customers, form {
+    display: none;
 }

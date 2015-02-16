@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="foodFruit">
+
+<head>
+    <title>Angular Practice</title>
+    <script src="angular.js"></script>
+    <script src="controller.js"></script>
+
+    <body ng-controller="foodListCtrl">
+
+        <p>Hello, {{name}}!</p>
+        <p>7 + 6 = {{7+6}}</p>
+
+        <ul>
+            <li ng-repeat="food in foods">
+                <span>{{food.name}}</span>
+            </li>
+        </ul>
+
+
+
+    </body>
+
+</html>
